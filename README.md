@@ -1,28 +1,23 @@
-# Lab Assignment 4 – NLP Preprocessing and Text Classification
+# NLP Text Classification Project
 
-## Setup
-```bash
-pip install -r requirements.txt
-```
+## Objective
+To implement NLP preprocessing and build a text classification model.
 
-## Run as Python script
-```bash
-python nlp_text_classification.py
-```
+## Features
+- Tokenization
+- Stopword removal
+- Stemming & Lemmatization
+- TF-IDF and CountVectorizer
+- Machine Learning Models (NB, SVM, Logistic Regression)
 
-## Run as Jupyter Notebook
-```bash
-jupyter notebook nlp_text_classification.ipynb
-```
+## Dataset
+20 Newsgroups Dataset
 
-## Project Structure
-```
-nlp_project/
-├── nlp_text_classification.py      # Main script
-├── nlp_text_classification.ipynb   # Jupyter notebook
-├── requirements.txt
-├── README.md
-└── results.png                     # Generated after running
+## Results
+Best Accuracy: ~88%
+
+## Conclusion
+Naive Bayes model performed best for this classification task.
 ```
 
 ## What's Covered
